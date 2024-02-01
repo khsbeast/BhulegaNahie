@@ -13,7 +13,7 @@ const Page = () => {
       <h1>Add Policies</h1>
       <input type="file" />
       <button onClick={() => alert("Policy added to database")}>Submit</button>
-    </div> 
+    </div>
   );
 };
 

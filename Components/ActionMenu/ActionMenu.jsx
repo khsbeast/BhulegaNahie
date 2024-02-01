@@ -32,7 +32,7 @@ const ActionMenu = () => {
         className="mt-4 flex justify-between items-center bg-white text-sm font-semibold uppercase text-black border border-blueprimary pl-4 w-full h-[46px] rounded leading-5 hover:bg-blueprimary hover:border-blueprimary hover:opacity-100 hover:border-opacity-100"
       >
         <div className="flex gap-3 items-center">
-          <Happy  color={surveyHover ? "#fff" : "#3361E1"} />
+          <Happy color={surveyHover ? "#fff" : "#3361E1"} />
           <h2
             className="text-blueprimary text-sm leading-5 font-semibold"
             style={surveyHover ? { color: "#fff" } : { color: "#3361E1" }}
