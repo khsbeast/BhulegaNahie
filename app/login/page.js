@@ -28,6 +28,9 @@ const countries = (
 );
 
 const Page = () => {
+  const [claimHover, setClaimHover] = useState(false); 
+  const [surveyHover, setSurveyHover] = useState(false);
+
   return (
     <div className="flex flex-col w-1/2 h-full">
       <div className="w-full flex flex-col content-center h-full">
@@ -61,8 +64,6 @@ const Page = () => {
             </div>
           </section>
           <section className="flex justify-center mt-10">
-            const [claimHover, setClaimHover] = useState(false); const
-            [surveyHover, setSurveyHover] = useState(false); return (
             <div className="w-[420px]">
               <button
                 onMouseLeave={() => setClaimHover(false)}
